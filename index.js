@@ -15,8 +15,6 @@ try {
     const source_base_path_1 = core.getInput('source_base_path_1'); 
     const source_base_path_2 = core.getInput('source_base_path_2'); 
     const source_base_path_3 = core.getInput('source_base_path_3');
-    const repo_owner = core.getInput('repo_owner');
-    const repo_name = core.getInput('repo_name')
     const fail_build = core.getInput('fail_build');
     const debug = core.getInput('debug')
     const commit_hash = process.env.GITHUB_SHA;
