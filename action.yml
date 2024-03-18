@@ -1,7 +1,7 @@
 name: 'Veracode scan results to GitHub issues Action'
 description: 'Import the results of a Veracode scan as Issues for a repo'
 inputs:
-  scan-results-jsons:
+  scan-results-json:
     description: 'Scan results file'
     required: true
     default: 'filtered_results.json'
