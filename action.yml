@@ -25,6 +25,9 @@ inputs:
   repo_owner:
     description: 'repo owner'
     required: false
+  repo_name:
+    description: 'repo name'
+    required: false
   fail_build:
     description: fail pipeline upon findings (true | false)
     required: false
